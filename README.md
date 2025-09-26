@@ -4,7 +4,7 @@ These plugins were written directly for the [InkyPi](https://github.com/fatihak/
  - Data visualization from APIs
  - Integration to automatically update using InkyPi's interface
 ## Programming  
- - Frontend: HTML, Django
+ - Frontend: HTML, CSS, Django
  - Backend: Python
  - Data: Pandas
 ## Installation  
