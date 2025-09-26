@@ -1,0 +1,49 @@
+{% extends "plugin.html" %} {% block content %}
+<div class="text-content">
+  <img
+    src="https://ctf58.rutgers-sci.domains/slideshow/formula1.png"
+    width="300"
+  />
+  <div class="title" style="font-weight: bold">FORMULA 1 RESULTS</div>
+  <br />
+  <div class="raceTitle">
+    <span style="font-weight: bold"
+      >{{ previousEvent.location }}, {{ previousEvent.country }}</span
+    ><br />
+    <span style="font-size: 1.25rem">{{ previousEvent.date }}</span>
+  </div>
+  <div class="racer">
+    <img src="{{ position1.photo }}" height="70px" /><span
+      style="font-weight: bold; font-size: 1.25rem"
+      >1st: {{ position1.name }}</span
+    >
+    -
+    <span style="color:{{ position1.color }};">{{ position1.team }}</span>
+  </div>
+  <div class="racer">
+    <img src="{{ position2.photo }}" height="70px" /><span
+      style="font-weight: bold; font-size: 1.25rem"
+      >2nd: {{ position2.name }}</span
+    >
+    -
+    <span style="color:{{ position2.color }};">{{ position2.team }}</span>
+  </div>
+  <div class="racer">
+    <img src="{{ position3.photo }}" height="70px" /><span
+      style="font-weight: bold; font-size: 1.25rem"
+      >3rd: {{ position3.name }}</span
+    >
+    -
+    <span style="color:{{ position3.color }};">{{ position3.team }}</span>
+  </div>
+  <br />
+  <br />
+  <div class="raceTitle">
+    <span style="text-decoration: underline; color: red">Upcoming Event</span
+    ><br />
+    <span style="font-weight: bold"
+      >{{ nextEvent.location }}, {{ nextEvent.country }} </span
+    ><br /><span style="font-size: 1.25rem"> {{ nextEvent.date }}</span>
+  </div>
+  {% endblock %}
+</div>

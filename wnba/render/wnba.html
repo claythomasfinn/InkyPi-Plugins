@@ -1,0 +1,100 @@
+{% extends "plugin.html" %} {% block content %}
+<div class="text-content">
+  <div class="title">
+    <img
+      src="https://ctf58.rutgers-sci.domains/slideshow/logo2.png"
+      width="300"
+    />
+  </div>
+  <div class="content1">
+    <div style="font-weight: bold">SCOREBOARD {{ date }}</div>
+    <div>
+      <div>
+        <span class="{{ won1 }}"
+          >{{ team1 }} {% if not score1 %}{% if score1 != score 1 %}0{% else
+          %}{{ score1 }}{% endif %}</span
+        >{% if not score1 %} {% elif score1 > score21 %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr1 }}.svg"
+          height="40"
+          class="logo"
+        />{% else %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr21 }}.svg"
+          height="40"
+          class="logo"
+        />{% endif %}<span class="{{ won21 }}"
+          >{{ team21 }} {% if not score21 %}{% if score21 != score 21 %}0{% else
+          %}{{ score21 }}{% endif %}</span
+        >
+      </div>
+      <div>
+        <span class="{{ won2 }}"
+          >{{ team2 }} {% if not score2 %}{% if score2 != score 2 %}0{% else
+          %}{{ score2 }}{% endif %}</span
+        >{% if not score2 %} {% elif score2 > score22 %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr2 }}.svg"
+          height="40"
+          class="logo"
+        />{% else %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr22 }}.svg"
+          height="40"
+          class="logo"
+        />{% endif %}<span class="{{ won22 }}"
+          >{{ team22 }} {% if not score22 %}{% if score22 != score 22 %}0{% else
+          %}{{ score22 }}{% endif %}</span
+        >
+      </div>
+      <div>
+        <span class="{{ won3 }}"
+          >{{ team3 }} {% if not score3 %}{% if score3 != score 3 %}0{% else
+          %}{{ score3 }}{% endif %}</span
+        >{% if not score3 %} {% elif score3 > score23 %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr3 }}.svg"
+          height="40"
+          class="logo"
+        />{% else %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr23 }}.svg"
+          height="40"
+          class="logo"
+        />{% endif %}<span class="{{ won23 }}"
+          >{{ team23 }} {% if not score23 %}{% if score23 != score 23 %}0{% else
+          %}{{ score23 }}{% endif %}</span
+        >
+      </div>
+      <div>
+        <span class="{{ won4 }}"
+          >{{ team4 }} {% if not score4 %}{% if score4 != score 4 %}0{% else
+          %}{{ score4 }}{% endif %}</span
+        >{% if not score4 %} {% elif score4 > score24 %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr4 }}.svg"
+          height="40"
+          class="logo"
+        />{% else %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr24 }}.svg"
+          height="40"
+          class="logo"
+        />{% endif %}<span class="{{ won24 }}"
+          >{{ team24 }} {% if not score24 %}{% if score24 != score 24 %}0{% else
+          %}{{ score24 }}{% endif %}</span
+        >
+      </div>
+      <div>
+        <span class="{{ won5 }}"
+          >{{ team5 }} {% if not score5 %}{% if score5 != score 5 %}0{% else
+          %}{{ score5 }}{% endif %}</span
+        >{% if not score5 %} {% elif score5 > score25 %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr5 }}.svg"
+          height="40"
+          class="logo"
+        />{% else %}<img
+          src="https://stats.wnba.com/media/img/teams/logos/{{ abr25 }}.svg"
+          height="40"
+          class="logo"
+        />{% endif %}<span class="{{ won25 }}"
+          >{{ team25 }} {% if not score25 %}{% if score25 != score 25 %}0{% else
+          %}{{ score25 }}{% endif %}</span
+        >
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+</div>

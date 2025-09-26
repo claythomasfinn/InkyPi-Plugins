@@ -1,0 +1,58 @@
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: "Jost";
+  container-type: size;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 4rem;
+  max-width: 100%;
+  font-size: min(10cqh, 8cqi);
+}
+
+.content1 {
+  overflow-wrap: break-word;
+  max-width: 100%;
+  float: left;
+  max-height: 80%;
+  font-weight: 200;
+  font-size: min(6cqh, 5cqi);
+  white-space: pre-line;
+  overflow: hidden;
+}
+
+.content2 {
+  overflow-wrap: break-word;
+  max-width: 50%;
+  float: right;
+  max-height: 80%;
+  font-weight: 200;
+  font-size: min(6cqh, 5cqi);
+  white-space: pre-line;
+  overflow: hidden;
+}
+
+.won {
+  padding: 5px;
+  border: 6px solid red;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.lost {
+  padding: 5px;
+  border: 3px solid black;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo {
+  max-height: 15px;
+}
