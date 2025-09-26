@@ -12,4 +12,8 @@ The plugins can be easily cloned and installed using InkyPi's directions. InkyPi
 ## Issues  
 These plugins require a bit more processing power than some of the other native InkyPi plugins and thus work much better on a full-blown Raspberry Pi compared to a Zero W.  
 ## Examples  
-View the individual plugins to see images of how the plugins render.
+<p align="center">
+  <img src="https://github.com/claythomasfinn/InkyPi-Plugins/blob/main/Docs/F1screenshot.jpg" alt="Statue 1" width="45%"/>
+  <img src="https://github.com/claythomasfinn/InkyPi-Plugins/blob/main/Docs/WNBAscreenshot.jpg" alt="Statue 2" width="45%"/>
+</p>
+
